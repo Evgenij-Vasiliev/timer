@@ -1,0 +1,13 @@
+.timer {
+    width: 100%;
+    min-height: 150px;
+    background-color: antiquewhite; 
+    font-size: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
