@@ -1,13 +1,40 @@
 .timer {
     width: 100%;
-    min-height: 150px;
-    background-color: antiquewhite; 
-    font-size: 100px;
-    margin-bottom: 100px;
+    min-height: 550px;    
+    font-size: 300px;
+    color: red;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.start, .stop, .reset {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.buttonAll {
+    text-align: center;
+}
+.start {
+    background-color: aqua;
+    color: green;
+    border: 4px solid green;
+}
+
+.stop {
+    background-color: rgb(252, 4, 4);
+    color: white;
+    border: 4px solid black;
+}
+
+.reset {
+    background-color: rgb(4, 173, 252);
+    color: blue;
+    border: 4px solid blue;
 }
 
 
